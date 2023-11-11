@@ -1,0 +1,25 @@
+body{background-color: #f3f3f2; margin:0px; padding: 0px;
+}
+
+div{box-sizing: border-box; margin:0px; padding: 0px;
+}
+
+.main{
+    height:20%;
+    min-height: 400px;
+    width: 20%;
+    min-width: 400px;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px double black;
+    display: grid;
+    text-align: center;
+}
+
+.inpI1, .inpI2, .inpP0, .inpP1, .inpP2, .inpA, .inpB{
+    margin:5px 5px 5px 5px;
+    border: 1px dashed black;
+
+}

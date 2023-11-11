@@ -1,0 +1,237 @@
+body{
+	background-color: #f3f3f2; margin:0px; padding: 0px;
+}
+
+div{box-sizing: border-box; margin:0px; padding: 0px;
+}
+
+.begin{
+	position: relative;
+    width: 100%;
+	margin: -16px 0px 20px 0px;
+	padding:  20px 0px 1px 0px;
+    text-align: center;
+	background-color: #d1d0c7;
+	display: flex;
+    flex-flow: row nowrap;
+}
+
+.logo{
+	display: block;
+	padding: 0px 0px 0px 5px;
+    width:10%;
+	border: 1px dashed black;
+	min-width: 120px;
+}
+
+.name{
+	text-align: left;
+    width:30%;
+	border: 1px dashed black;
+	padding:  0px 5px 0px 10px;
+}
+
+.sitename{
+    font-size:calc(0.3vw + 20px);
+	font-family: coolsville;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+	text-align: down;
+}
+
+.info{
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+    font-size:calc(0.3vw + 15px);
+    font-family: cursive;
+	text-align: down;
+}	
+
+.sign_div{
+	margin-left: auto;
+	padding:  10px 10px 10px 10px;
+	text-align: right;
+    width:60%;
+	border: 1px dashed black;
+	max-height: 120px;
+	flex-direction: column;
+	align-items: flex-end;
+	display: flex;
+}
+
+.sign{
+	display: flex;
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  10px 10px 10px 10px;
+	border: 1px dashed black;
+    flex-direction: column;
+	align-items: flex-end;
+}
+
+.credits{
+	margin: 0px 10px 0px 0px;
+	padding:  0px 0px 0px 0px;
+	text-align: right;
+    width:60%;
+	border: 1px dashed black;
+	max-height: 120px;
+}
+
+.credits_info{
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+}
+
+.credit{
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 10px 0px 0px;
+}
+
+.main{  
+	display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    text-align: center;
+	border: 1px dashed black;
+}
+
+.kards{
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+	width: 85%;
+	display: flex;
+	flex-flow: row wrap;
+	border: 1px dashed black;
+}
+
+.amnyam{
+	width: 31%;
+	height: 300px;
+	border: 1px dashed black;
+	margin:10px;
+	min-width: 300px;
+	color: black;
+	text-decoration: none !important;
+}
+
+.cocks_image{
+	width: calc(100% - 0px);
+    height: 150px;
+}
+
+.title_amnyam{
+	color: black;
+	text-decoration: none !important;
+	padding:10px 5px 0px 5px;
+	font-size:24px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.short_text_amnyam{
+	color: black;
+	text-decoration: none !important;
+	padding:0px 5px 5px 10px;
+	font-size:20px;
+	text-align: left;
+	font-family: cursive;
+}
+
+.countries{
+	width: 30%;
+	flex-direction:column;
+	min-width: 230px;
+	max-width: 300px;
+	display: inline-block;	
+	border: 1px dashed black;
+}
+
+.a1{cursor: pointer;
+    text-align: left;
+    position: relative;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    height: 43px;
+    width: 85%;  
+    display: block;
+    font-size: 25px;
+    font-family:arial black;
+    color: gray;
+    text-decoration: none;
+}
+
+.p0{text-align: center;
+    position: relative;
+	padding: 0px 10px 0px 10px;
+	margin: 10px 10px 0px 10px;
+    height: 43px;
+	width: 85%;
+	display: block;
+	font-size: 27px;
+	font-family:arial black;
+	color: black;
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.3), 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.p2{text-align: center;
+	position: relative;
+	padding: 0px 10px 0px 10px;
+	margin: 10px 10px 0px 10px;
+	height: 43px;
+	width: 85%;
+	display: block;
+	font-size: 27px;
+	font-family:arial black;
+	color: black;
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.3), 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.p2{
+	color: black;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.3), 0 10px 10px rgba(0,0,0,0.3);
+}
+	
+.p2:hover{
+	color: black;
+	inset: 3px 0px  -3px 0px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.a1{
+	background: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.a1:hover{
+	background: white;
+	inset: 3px 0px  -3px 0px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+			
+.amnyam:hover{
+	background: white;
+	inset: 3px 0px  -3px 0px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.amnyam {
+	background: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.end{
+	position: relative;
+    width: 100%;
+	margin: 5px 0px 0px 0px;
+	padding: 10px 10px;
+    text-align: center;
+	background-color: #91918e;
+}

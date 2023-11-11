@@ -1,0 +1,159 @@
+body{background-color: #f3f3f2; margin:0px; padding: 0px;
+}
+
+div{ box-sizing: border-box; margin:0px; padding: 0px;
+}
+
+.begin{
+	position: relative;
+    width: 100%;
+	margin: -16px 0px 20px 0px;
+	padding:  20px 0px 1px 0px;
+    text-align: center;
+	background-color: #d1d0c7;
+	display: flex;
+    flex-flow: row nowrap;
+}
+
+.logo{
+	display: block;
+	padding: 0px 0px 0px 5px;
+    width:10%;
+	border: 1px dashed black;
+	min-width: 120px;
+}
+
+.name{
+	text-align: left;
+    width:30%;
+	border: 1px dashed black;
+	padding:  0px 5px 0px 10px;
+}
+
+.sitename{
+    font-size:calc(0.3vw + 20px);
+	font-family: coolsville;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+	text-align: down;
+}
+
+.info{
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+    font-size:calc(0.3vw + 15px);
+    font-family: cursive;
+	text-align: down;
+}	
+
+.sign_div{
+	margin-left: auto;
+	padding:  10px 10px 10px 10px;
+	text-align: right;
+    width:60%;
+	border: 1px dashed black;
+	max-height: 120px;
+}
+
+.sign{
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  10px 10px 10px 10px;
+	border: 1px dashed black;
+}
+
+.credits{
+	margin: 0px 10px 0px 0px;
+	padding:  0px 0px 0px 0px;
+	text-align: right;
+    width:60%;
+	border: 1px dashed black;
+	max-height: 120px;
+}
+
+.credits_info{
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+}
+
+.credit{
+	font-size:calc(0.3vw + 14px);
+    font-family: cursive;
+	margin: 0px 0px 0px 0px;
+	padding:  0px 10px 0px 0px;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+	border: 1px dashed black;
+}
+
+.page{
+    width: 90%;
+    flex-direction:column;
+	margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    padding:30px 0px 20px 0px;
+    border: 1px dashed black;
+}	
+
+.title_page{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align:justify;
+	font-size: 30px;
+    font-family: cursive;
+	border: 1px dashed black;
+}
+
+.cocks_image_page{
+	display:block;
+	padding: 30px 0px 20px 0px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	height: 40%;
+	max-height: 300px;
+}
+
+.full_text_page{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align:justify;
+	font-size: 20px;
+    font-family: cursive; 
+	border: 1px dashed black;
+}
+
+.end{
+	position: relative;
+    width: 100%;
+	margin: 5px 0px 0px 0px;
+	padding: 10px 10px;
+    text-align: center;
+	background-color: #91918e;
+}
+
+.star{
+    width:30px;
+    padding: 10px 0px 10px 0px;
+	order: 1px dashed black;	
+}
+
+.stars{
+	height: 50px;
+	width: 200px;
+    padding: 0px 10px 55px 10px;
+    border: 1px dashed black;
+	margin-left: auto;
+	margin-right: auto;
+}
